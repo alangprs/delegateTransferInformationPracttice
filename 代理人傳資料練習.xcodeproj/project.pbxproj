@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		4D34FB022699674A00C23A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB012699674A00C23A65 /* AppDelegate.swift */; };
 		4D34FB042699674A00C23A65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB032699674A00C23A65 /* SceneDelegate.swift */; };
-		4D34FB062699674A00C23A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB052699674A00C23A65 /* ViewController.swift */; };
 		4D34FB092699674A00C23A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D34FB072699674A00C23A65 /* Main.storyboard */; };
 		4D34FB0C2699674A00C23A65 /* ________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB0A2699674A00C23A65 /* ________.xcdatamodeld */; };
 		4D34FB0E2699674E00C23A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D34FB0D2699674E00C23A65 /* Assets.xcassets */; };
 		4D34FB112699674E00C23A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D34FB0F2699674E00C23A65 /* LaunchScreen.storyboard */; };
+		4D34FB19269967AB00C23A65 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB18269967AB00C23A65 /* FavoriteViewController.swift */; };
+		4D34FB1B269967BC00C23A65 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB1A269967BC00C23A65 /* SelectViewController.swift */; };
+		4D34FB1D26996A2800C23A65 /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB1C26996A2800C23A65 /* animal.swift */; };
+		4D34FB1F2699722600C23A65 /* AnimalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34FB1E2699722600C23A65 /* AnimalDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D34FAFE2699674A00C23A65 /* 代理人傳資料練習.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代理人傳資料練習.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D34FB012699674A00C23A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D34FB032699674A00C23A65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D34FB052699674A00C23A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D34FB082699674A00C23A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D34FB0B2699674A00C23A65 /* ________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "________.xcdatamodel"; sourceTree = "<group>"; };
 		4D34FB0D2699674E00C23A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D34FB102699674E00C23A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D34FB122699674E00C23A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D34FB18269967AB00C23A65 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		4D34FB1A269967BC00C23A65 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		4D34FB1C26996A2800C23A65 /* animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
+		4D34FB1E2699722600C23A65 /* AnimalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,11 @@
 			children = (
 				4D34FB012699674A00C23A65 /* AppDelegate.swift */,
 				4D34FB032699674A00C23A65 /* SceneDelegate.swift */,
-				4D34FB052699674A00C23A65 /* ViewController.swift */,
 				4D34FB072699674A00C23A65 /* Main.storyboard */,
+				4D34FB18269967AB00C23A65 /* FavoriteViewController.swift */,
+				4D34FB1A269967BC00C23A65 /* SelectViewController.swift */,
+				4D34FB1E2699722600C23A65 /* AnimalDataViewController.swift */,
+				4D34FB1C26996A2800C23A65 /* animal.swift */,
 				4D34FB0D2699674E00C23A65 /* Assets.xcassets */,
 				4D34FB0F2699674E00C23A65 /* LaunchScreen.storyboard */,
 				4D34FB122699674E00C23A65 /* Info.plist */,
@@ -140,10 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D34FB062699674A00C23A65 /* ViewController.swift in Sources */,
+				4D34FB1B269967BC00C23A65 /* SelectViewController.swift in Sources */,
 				4D34FB0C2699674A00C23A65 /* ________.xcdatamodeld in Sources */,
 				4D34FB022699674A00C23A65 /* AppDelegate.swift in Sources */,
+				4D34FB19269967AB00C23A65 /* FavoriteViewController.swift in Sources */,
 				4D34FB042699674A00C23A65 /* SceneDelegate.swift in Sources */,
+				4D34FB1D26996A2800C23A65 /* animal.swift in Sources */,
+				4D34FB1F2699722600C23A65 /* AnimalDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
